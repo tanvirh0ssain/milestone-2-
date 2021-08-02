@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Custom property</title>
+    <style>
+        :root{
+            --main-color: cyan;
+            --border-color: lightgrey;
+        }
+       h1{
+         color: var(--main-color);
+       }
+       p{
+           color: var(--main-color);
+       }
+       h2{
+           border: 2px solid var(--border-color);
+           color: var(--main-color);
+       }
+       h4{
+           background-color: cyan;
+       }
+       footer{
+           color: var(--main-color);
+       }
+       footer{
+           border: var(--dark-border);
+           
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I am exploring custom properties</h1>
+        <p> Welcome to my custom website
+        </p>
+    </header>
+    <main>
+        <h2>My awesome content</h2>
+        <h4>My another heading</h4>
+        <section>
+            <aside class="side-nav">
+                My side navigation
+            </aside>
+            <div class="blogs"><h4>
+                blogs
+            </h4></div>
+        </section>
+    </main>
+    <footer>
+        <p><small>Copyright</small></p>
+    </footer>
+    
+</body>
+</html>
